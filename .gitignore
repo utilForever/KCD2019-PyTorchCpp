@@ -8,10 +8,11 @@ cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
-build
+build/
 
 # Visual Studio files
-/.vs
+.vs/
+*.DotSettings.user
 
 # Visual Studio Code files
 /.vscode
