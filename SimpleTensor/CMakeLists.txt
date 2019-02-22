@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
 project(SimpleTensor)
 
-set(CMAKE_PREFIX_PATH "C:\\Pytorch")
+set(CMAKE_PREFIX_PATH "C:\\Libtorch")
 find_package(Torch REQUIRED)
 
 add_executable(SimpleTensor SimpleTensor.cpp)
